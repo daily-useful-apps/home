@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Daily Useful Apps</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="service-details-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">Daily Useful Apps</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html#hero" class="active">Home</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#features">Features</a></li>
+          <li><a href="index.html#services">Services</a></li>
+          <li class="dropdown"><a href="#"><span>Products</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="https://play.google.com/store/apps/details?id=com.bank.balance.checker.and.enquiry" target="_blank">Bank Balance Check - Passbook</a></li>
+            </ul>
+          </li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" href="index.html#about">Get Started</a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title light-background">
+      <div class="container">
+        <h1 id="page-title">Service Details</h1> <!-- Title with id for dynamic update -->
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current" id="breadcrumb-current">Service Details</li> <!-- Breadcrumbs will be updated -->
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- Service Details Section -->
+    <section id="service-details" class="service-details section">
+
+      <div class="container">
+
+        <div class="row gy-5">
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="service-box">
+              <h4>Services List</h4>
+              <div class="services-list">
+                <a href="service-details.html?service=app" id="app" class="active" onclick="setActive(this)"><i class="bi bi-arrow-right-circle"></i><span>Application Development</span></a>
+                <a href="service-details.html?service=web" id="web" onclick="setActive(this)"><i class="bi bi-arrow-right-circle"></i><span>Web Development</span></a>
+                <a href="service-details.html?service=ai-ml" id="ai-ml" onclick="setActive(this)"><i class="bi bi-arrow-right-circle"></i><span>AI and ML</span></a>
+                <a href="service-details.html?service=block-chain" id="block-chain" onclick="setActive(this)"><i class="bi bi-arrow-right-circle"></i><span>Blockchain Development</span></a>
+                <a href="service-details.html?service=marketing" id="marketing" onclick="setActive(this)"><i class="bi bi-arrow-right-circle"></i><span>Marketing</span></a>
+              </div>
+            </div><!-- End Services List -->
+
+            <div class="service-box">
+              <h4>Show Applications</h4>
+              <div class="download-catalog">
+                <a href="https://play.google.com/store/apps/dev?id=5279164515955857993" target="_blank"><i class="bi bi-file-earmark-text"></i><span>Developer Page</span></a>
+                <a href="https://play.google.com/store/apps/details?id=com.bank.balance.checker.and.enquiry" target="_blank"><i class="bi bi-file-earmark-word"></i><span>Catalog DOC</span></a>
+              </div>
+            </div><!-- End Services List -->
+
+            <div class="help-box d-flex flex-column justify-content-center align-items-center">
+              <i class="bi bi-headset help-icon"></i>
+              <h4>Have a Question?</h4>
+              <p class="d-flex align-items-center mt-2 mb-0"><i class="bi bi-telephone me-2"></i> <span><a href="tel:+919712065417">+91 97120 65417</a></span></p>
+              <p class="d-flex align-items-center mt-1 mb-0"><i class="bi bi-envelope me-2"></i> <a href="mailto:dailyusefulapps.in@gmail.com">dailyusefulapps.in@gmail.com</a></p>
+            </div>
+
+          </div>
+
+          <div class="col-lg-8 ps-lg-5" data-aos="fade-up" data-aos-delay="200">
+            <img src="assets/img/services.jpeg" alt="Service Image" class="img-fluid services-img" id="service-image">
+            <h3>Discover Practical Solutions and Services Tailored to Enhance Your Daily Life</h3>
+            <p>
+              "Experience high-quality services designed to simplify your daily tasks. From custom software solutions to innovative mobile apps, we focus on delivering reliable and efficient tools. Our services aim to resolve challenges, improve workflows, and provide long-term value to your daily activities. Let us help you achieve more with ease and effectiveness."
+            </p>
+            <ul>
+              <li><i class="bi bi-check-circle"></i> <span>Discover Our Comprehensive Services for Your Daily Needs</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Discover Essential Tools for Everyday Productivity</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Efficient Solutions for Your Daily Needs</span></li>
+            </ul>
+            <p>
+              At Daily Useful Apps, we focus on providing efficient solutions that meet your needs. Our approach combines innovation with practicality, ensuring that we deliver high-quality products and services tailored to your requirements. We aim to simplify complex challenges and provide seamless user experiences.
+            </p>
+            <p>
+              Our team is dedicated to providing exceptional service and ensuring your satisfaction at every step. Whether you need customized software, app development, or support, we are here to help you achieve your goals. We understand the value of every project and ensure that each solution is executed with attention to detail and precision. Trust us to bring your ideas to life with the best in technology and design.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Service Details Section -->
+
+  </main>
+
+  <footer id="footer" class="footer">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename">Daily Useful Apps</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>3446, Reva Residency, Kosamba</p>
+            <p>Surat, Gujarat, India - 394120</p>
+            <p class="mt-3"><strong>Phone:</strong> <span><a href="tel:+919712065417">+91 97120 65417</a></span></p>
+            <p><strong>Email:</strong> <span><a href="mailto:dailyusefulapps.in@gmail.com">dailyusefulapps.in@gmail.com</a></span></p>
+          </div>
+          <div class="social-links d-flex mt-4">
+            <a href="https://play.google.com/store/apps/dev?id=5279164515955857993" target="_blank"><i class="bi bi-google-play"></i></a>
+            <a href="soon.html" target="_blank"><i class="bi bi-facebook"></i></a>
+            <a href="soon.html" target="_blank"><i class="bi bi-instagram"></i></a>
+            <a href="soon.html" target="_blank"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="index.html#about">About us</a></li>
+            <li><a href="index.html#services">Services</a></li>
+            <li><a href="https://play.google/developer-distribution-agreement.html" target="_blank">Agreement</a></li>
+            <li><a href="https://play.google.com/about/play-terms/" target="_blank">Privacy policy</a></li>
+            <li><a href="https://play.google/intl/tl/console/terms-of-service/" target="_blank">Terms of service</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="service-details.html?service=app">App Development</a></li>
+            <li><a href="service-details.html?service=web">Web Development</a></li>
+            <li><a href="service-details.html?service=ai-ml">AI and ML</a></li>
+            <li><a href="service-details.html?service=block-chain">Blockchain Development</a></li>
+            <li><a href="service-details.html?service=marketing">Marketing</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Privacy Matters</h4>
+          <ul>
+            <li><a href="https://safety.google/intl/en/" target="_blank">Safety</a></li>
+            <li><a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a></li>
+            <li><a href="https://policies.google.com/terms" target="_blank">Terms Of Service</a></li>
+            <li><a href="https://safety.google/products/" target="_blank">Third Party Apps</a></li>
+            <li><a href="https://www.google.com/about/datacenters/data-security/" target="_blank">Data Center Security</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>More About Us</h4>
+          <ul>
+            <li><a href="service-details.html">Services</a></li>
+            <li><a href="https://play.google.com/store/apps/datasafety?id=com.bank.balance.checker.and.enquiry" target="_blank">Data Safety</a></li>
+            <li><a href="https://play.google.com/store/apps/dev?id=5279164515955857993" target="_blank">Products</a></li>
+            <li><a href="https://play.google.com/store/apps/dev?id=5279164515955857993" target="_blank">Innovations</a></li>
+            <li><a href="mailto:skylineapps.in@gmail.com">Help</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Daily Useful Apps</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        Designed by <a href="#">Skyline Technology</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+<script>
+  window.onload = function () {
+    // Get the service query parameter from the URL
+    const urlParams = new URLSearchParams(window.location.search);
+    const service = urlParams.get('service');
+
+    // Define a mapping of service codes to readable service names and image sources
+    const serviceDetails = {
+      'app': {
+        name: 'Application Development',
+        image: 'assets/img/application.jpeg'
+      },
+      'web': {
+        name: 'Web Development',
+        image: 'assets/img/web.jpeg'
+      },
+      'ai-ml': {
+        name: 'AI and ML',
+        image: 'assets/img/ai-ml.jpeg'
+      },
+      'block-chain': {
+        name: 'Blockchain Development',
+        image: 'assets/img/block-chain.jpeg'
+      },
+      'marketing': {
+        name: 'Marketing',
+        image: 'assets/img/services.jpeg'
+      }
+    };
+
+    // Update the title, breadcrumb, and image if a service is provided
+    if (service && serviceDetails[service]) {
+      const pageTitle = document.getElementById('page-title');
+      const breadcrumb = document.getElementById('breadcrumb-current');
+      const serviceImage = document.getElementById('service-image');
+
+      pageTitle.textContent = serviceDetails[service].name; // Update title
+      breadcrumb.textContent = serviceDetails[service].name; // Update breadcrumb
+      serviceImage.src = serviceDetails[service].image; // Update image
+    }
+
+    // Highlight the active link in the services list
+    const activeElement = document.getElementById(service);
+    if (activeElement) {
+      setActive(activeElement);
+    }
+
+    // Function to toggle the active class
+    function setActive(element) {
+      const allLinks = document.querySelectorAll('.services-list a');
+      allLinks.forEach(link => link.classList.remove('active'));
+      element.classList.add('active');
+    }
+  };
+</script>
+</html>
