@@ -41,7 +41,7 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#home" class="active">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#features">Features</a></li>
           <li><a href="#services">Services</a></li>
@@ -63,7 +63,7 @@
   <main class="main">
 
     <!-- Hero Section -->
-    <section id="hero" class="hero section">
+    <section id="home" class="hero section">
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
@@ -735,7 +735,7 @@
               <div>
                 <h3>Smart Apps for Daily Life</h3>
                 <p>Providing practical solutions that simplify daily tasks. Our apps are designed to make your everyday life easier, with features that deliver real value and convenience.</p>
-                <a href="service-details.html" class="read-more">Read More <i class="bi bi-arrow-right"></i></a>
+                <a href="service-details.html?service=app" class="read-more">Read More <i class="bi bi-arrow-right"></i></a>
               </div>
             </div>
           </div><!-- End Service Card -->
@@ -748,7 +748,7 @@
               <div>
                 <h3>Apps to Make Life Easier</h3>
                 <p>Discover apps designed to simplify your daily tasks. With easy-to-use features and reliable performance, these tools are crafted to help you save time and reduce stress.</p>
-                <a href="service-details.html" class="read-more">Read More <i class="bi bi-arrow-right"></i></a>
+                <a href="service-details.html?service=app" class="read-more">Read More <i class="bi bi-arrow-right"></i></a>
               </div>
             </div>
           </div><!-- End Service Card -->
@@ -761,7 +761,7 @@
               <div>
                 <h3>Everyday Tasks</h3>
                 <p>We simplify complex tasks, making them easier and more efficient. Our apps deliver seamless solutions, helping you accomplish everyday activities with ease and reliability.</p>
-                <a href="service-details.html" class="read-more">Read More <i class="bi bi-arrow-right"></i></a>
+                <a href="service-details.html?service=app" class="read-more">Read More <i class="bi bi-arrow-right"></i></a>
               </div>
             </div>
           </div><!-- End Service Card -->
@@ -774,7 +774,7 @@
               <div>
                 <h3>Solutions for You</h3>
                 <p>Experience seamless solutions designed to simplify your daily tasks. We provide reliable, user-friendly apps that help you save time and achieve more every day.</p>
-                <a href="service-details.html" class="read-more">Read More <i class="bi bi-arrow-right"></i></a>
+                <a href="service-details.html?service=app" class="read-more">Read More <i class="bi bi-arrow-right"></i></a>
               </div>
             </div>
           </div><!-- End Service Card -->
@@ -938,16 +938,16 @@
               <form id="contact-form" onsubmit="sendEmail(event)" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
                 <div class="row gy-4">
                   <div class="col-md-6">
-                    <input type="text" id="name" class="form-control" placeholder="Your Name" required>
+                    <label for="name"></label><input type="text" id="name" class="form-control" placeholder="Your Name" required>
                   </div>
                   <div class="col-md-6">
-                    <input type="email" id="email" class="form-control" placeholder="Your Email" required>
+                    <label for="email"></label><input type="email" id="email" class="form-control" placeholder="Your Email" required>
                   </div>
                   <div class="col-12">
-                    <input type="text" id="subject" class="form-control" placeholder="Subject" required>
+                    <label for="subject"></label><input type="text" id="subject" class="form-control" placeholder="Subject" required>
                   </div>
                   <div class="col-12">
-                    <textarea id="message" class="form-control" rows="6" placeholder="Message" required></textarea>
+                    <label for="message"></label><textarea id="message" class="form-control" rows="6" placeholder="Message" required></textarea>
                   </div>
                   <div class="col-12 text-center">
                     <button type="submit" class="btn">Send Message</button>
@@ -1024,7 +1024,7 @@
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>More About Us</h4>
           <ul>
-            <li><a href="service-details.html">Services</a></li>
+            <li><a href="service-details.html?service=app">Services</a></li>
             <li><a href="https://play.google.com/store/apps/datasafety?id=com.bank.balance.checker.and.enquiry" target="_blank">Data Safety</a></li>
             <li><a href="https://play.google.com/store/apps/dev?id=5279164515955857993" target="_blank">Products</a></li>
             <li><a href="https://play.google.com/store/apps/dev?id=5279164515955857993" target="_blank">Innovations</a></li>
